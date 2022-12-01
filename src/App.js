@@ -1,4 +1,4 @@
-/*import ClassComponent from "./ClassComponent.js"
+{/*import ClassComponent from "./ClassComponent.js"
 
 
 function App(){
@@ -11,8 +11,8 @@ function App(){
     </div>
     )
 }
-export default App*/
-import PropsExample from './ClassComponent.js'
+export default App*/}
+{/*import PropsExample from './ClassComponent.js'
 function App(){
   return(
     <div>
@@ -21,4 +21,31 @@ function App(){
     </div>
     )
 }
-export default App
+export default App*/}
+{/*PropsExample from "./PropsExample"
+FunPropExample from "./FunPropExample"
+on App(){
+  turn (
+
+ <div>
+  
+      <PropsExample framework="Angularjs" year="2002"/>
+      <PropsExample framework="React" year="2007"/>
+      <PropsExample framework="Vuejs" year="2012"/>
+      
+      
+      </div>
+
+  )
+}*/}
+import StateExample from './stateexample'
+function App(){
+  return(
+    <div>
+      <StateExample/>
+      {
+
+      }
+    </div>
+  )
+}
